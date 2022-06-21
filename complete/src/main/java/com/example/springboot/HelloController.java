@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Does this change azure app at all?";
+		return "Does this change azure app?";
 	}
 
 }
